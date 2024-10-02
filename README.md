@@ -1,1 +1,1 @@
-# cloudinary-demo
+#Dictionary Web app
