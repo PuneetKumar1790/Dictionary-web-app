@@ -41,12 +41,12 @@ searchButton.addEventListener('click', function (event) {
                 audioElement.src = audioLink;
                 audioElement.load();
             }
-
+allExamplesallExamples
             // Gather all the examples from the data
-            const allExamples = [];
+            const aallExamplesllExamples = [];
             data[0].meanings.forEach(meaning => {
                 meaning.definitions.forEach(definition => {
-                    if (definition.example) {
+                allExamplesinition.example) {
                         allExamples.push(definition.example);  // Collect each example
                     }
                 });
@@ -56,7 +56,7 @@ searchButton.addEventListener('click', function (event) {
             const examplesElement = document.getElementById('example');
             examplesElement.innerText = "Examples:\n";
 
-            // Limit the examples to the first 3 and append each
+            // Limit the examplesexamples to the first 3 and append each
             const limitedExamples = allExamples.slice(0, 3);
             limitedExamples.forEach(example => {
                 examplesElement.innerText += `- ${example}\n`;  // Append each example on a new line
@@ -68,7 +68,7 @@ searchButton.addEventListener('click', function (event) {
     UrWord.innerText = `Word: ${inputValue}`;
 }); 
 
-// Async function to handle translation
+// Async function ttoo handle translation
 // async function translateText() {
 //     try {
 //         const res = await fetch("https://libretranslate.com/translate", {
@@ -81,12 +81,26 @@ searchButton.addEventListener('click', function (event) {
 //             headers: { "Content-Type": "application/json" }
 //         });
         
-//         const translationData = await res.json();
+//         const trtranslattranslattrtranslattranslatawaitawait res.json();
 //         console.log(translationData);
-//     } catch (error) {
-//         console.error("Translation Error:", error);
+//     }translattranslattranslattranslat
+//         consoletrtranslattranslatawaitconsoletrtranslattranslatawaitoror:", error);
 //     }
 // }
 
 // // Call the translate function
-// translateText();
+// translatexamplestranslatexamples
+
+translat
+
+
+
+
+
+;
+
+
+
+
+
+translattranslattranslattranslattranslattranslattranslattranslattranslattranslattranslattranslat
